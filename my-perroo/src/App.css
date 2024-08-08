@@ -1,0 +1,129 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+
+body {
+  /* font-family: 'Oswald', sans-serif !important; */
+      font-family:'Cambria, Cochin, Georgia, Times, Times New Roman ,serif' !important;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: #c3c1ba !important;
+}
+.material-symbols-outlined{
+  font-size:50px;
+}
+
+.box1 { 
+  display: flex;
+  height: 175px;
+  flex-direction: row;
+  padding-left: 100px;
+  --bs-bg-opacity: 1;
+  background-color: #c3c1ba8d;
+}
+
+.dropdown{
+  z-index: 10;
+}
+.dogimage img {
+  width: 160px;
+  height: 175px;
+}
+.mainsearch {
+  width: 500px;
+}
+
+.inner {
+  padding: 10px;
+  display: flex;
+  margin: auto;
+}
+.inner2 {
+  padding: 10px;
+  display: flex;
+  margin: auto;
+}
+.inner button {
+  margin: 2px;
+}
+.box2 {
+  display: flex;
+  margin: auto;
+  margin-top: -50px;
+  margin-left: 400px;
+  height: 150px;
+  width: fit-content;
+  border-radius: 100px;
+  background-color: #eddeaa;
+}
+
+@media only screen and (max-width: 480px) {
+  .box1 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 435px) {
+  .box2 {
+    box-sizing: border-box;
+    width:95%;
+    display: flex;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .inner {
+        padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 431px) {
+  .mainsearch {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .box1 {
+    height: fit-content;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .dogimage img {
+    width: 150px;
+    height: 155px;
+
+  }
+}
+
+
+
+.card-img-top {
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: black;
+}
+
+.card-body {
+  background-color: #c3c1ba66;
+}
+.card-body button {
+  margin: 2px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.bt {
+  margin: auto;
+  text-align: center;
+}
+.card-footer {
+  background-color: #c3c1ba;
+}
