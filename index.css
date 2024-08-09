@@ -1,0 +1,12 @@
+ul li a {
+  color: #e61616;
+}
+
+
+ul li a:hover {
+  color: #00a8ff;
+}
+
+ul li a.active {
+  color: #00a8ff;
+}
